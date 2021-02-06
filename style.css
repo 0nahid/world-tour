@@ -1,13 +1,16 @@
-body{
+body {
     background: #222;
+    color: white;
 }
-#countries{
+
+#countries {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 
 }
-.country{
+
+.country {
     border: 1px solid crimson;
     border-radius: 20px;
     padding: 10px;
@@ -15,4 +18,8 @@ body{
     width: 250px;
     margin-top: 20px;
     color: yellow;
+}
+
+#countryDetails img {
+    width: 200px;
 }
