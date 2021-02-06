@@ -1,3 +1,6 @@
+body{
+    background: #222;
+}
 #countries{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -11,5 +14,5 @@
     text-align: center;
     width: 250px;
     margin-top: 20px;
-    color: blueviolet;
+    color: yellow;
 }
